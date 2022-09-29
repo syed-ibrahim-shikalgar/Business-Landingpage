@@ -408,6 +408,7 @@ input[type="email"]::placeholder {
         display: flex;
         flex-direction: column;
         margin-bottom: 30px;
+        width: 25rem;
     }
 
     .text1 h1 {
@@ -436,10 +437,11 @@ input[type="email"]::placeholder {
 
     .stats1 h2 {
         font-size: 15px;
+        margin-left: -35px;
     }
 
     .stats1 {
-        margin-right: 60px;
+        margin-right: 30px;
     }
 
     .stats1 p {
@@ -465,24 +467,28 @@ input[type="email"]::placeholder {
     }
 
     .image4 img {
-        display: flex;
-        justify-content: center;
+        margin-left: -5rem;
         height: 20rem;
         width: 23rem;
     }
 
     .side {
-        margin-left: 5rem;
         width: 20rem;
     }
 
     .side h2 {
+        margin-left: -2.5rem;
         margin-top: 20px;
         font-size: 25px;
     }
 
     .side p {
         font-size: 12px;
+        margin-left: -2.5rem;
+    }
+
+    .side button {
+        margin-left: -2.5rem;
     }
 
     .main4 {
@@ -494,17 +500,17 @@ input[type="email"]::placeholder {
     .image5 {
         display: flex;
         justify-content: center;
-        margin-left: 15rem;
+
     }
     .image5 img {
         display: flex;
         justify-content: center;
         height: 20rem;
         width: 23rem;
+        margin-left: 7rem;
     }
 
     .side {
-        margin-left: 5rem;
         width: 20rem;
     }
 
@@ -524,7 +530,7 @@ input[type="email"]::placeholder {
     }
 
     .image6 img {
-        margin-left: 5rem;
+        margin-left: 0;
         height: 20rem;
         width: 23rem;
     }
@@ -547,6 +553,8 @@ input[type="email"]::placeholder {
         margin-top: 50px;
         display: flex;
         flex-direction: column;
+        width: 20rem;
+        margin-left: 30px;
     }
 
     .left-heading h2 {
@@ -560,6 +568,7 @@ input[type="email"]::placeholder {
     .main7 {
         display: flex;
         flex-direction: column;
+        margin-left: 30px;
     }
 
     .all {
@@ -576,6 +585,10 @@ input[type="email"]::placeholder {
 
     .up .logo img {
         height: 30px;
+    }
+
+    .social {
+        margin-left: 7rem;
     }
 
     .social ion-icon {
