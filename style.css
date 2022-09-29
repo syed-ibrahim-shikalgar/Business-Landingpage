@@ -413,12 +413,12 @@ input[type="email"]::placeholder {
 
     .text1 h1 {
         font-size: 25px;
-        margin-left: 5rem;
+        margin-left: 30px;
     }
 
     .text1 p {
         font-size: 12px;
-        margin-left: 5rem;
+        margin-left: 30px;
     }
 
     .input_box {
@@ -437,7 +437,7 @@ input[type="email"]::placeholder {
 
     .stats1 h2 {
         font-size: 15px;
-        margin-left: -35px;
+        margin-left: -30px;
     }
 
     .stats1 {
@@ -507,7 +507,7 @@ input[type="email"]::placeholder {
         justify-content: center;
         height: 20rem;
         width: 23rem;
-        margin-left: 7rem;
+        margin-left: 11rem;
     }
 
     .side {
@@ -581,14 +581,12 @@ input[type="email"]::placeholder {
 
     .up {
         margin-left: 20px;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .up .logo img {
         height: 30px;
-    }
-
-    .social {
-        margin-left: 7rem;
     }
 
     .social ion-icon {
