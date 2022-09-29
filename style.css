@@ -75,15 +75,17 @@ img {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 70px;
-    margin-left: 11rem;
 }
 
 .image2 img {
     height: 28rem;
     width: 47rem;
     clip-path: inset(0% 22.5% 0% 22%);
-    margin-left: -14rem;
     margin-bottom: 3rem;
+}
+
+.text1 {
+    margin-right: 15rem;
 }
 
 .text1 h1 {
@@ -92,21 +94,19 @@ img {
     font-size: 60px;
     font-weight: 700;
     margin-top: 30px;
-    margin-left: -55rem;
 }
 
 .text1 p {
     color: #D8DADD;
     font-size: 15px;
     margin-top: 20px;
-    margin-left: -55rem;
 }
 
 .mail {
     right: 0;
     position: absolute;
-    margin-right: 52.4rem;
     margin-top: 2.3rem;
+    margin-right: 43.8rem;
 }
 
 .text1 button {
@@ -115,9 +115,9 @@ img {
     background-color: #8BB7A2;
     padding: 10px 30px;
     border: none;
-    margin-right: 32.1rem;
     margin-top: 1.7rem;
     color: #fff;
+    margin-right: 23.7rem;
 }
 
 .text1 button:hover {
@@ -131,7 +131,6 @@ input[type="email"]::placeholder {
 .email {
     padding: 15px 150px 15px 40px;
     margin-top: 20px;
-    margin-left: -55rem;
 }
 
 .main2 {
@@ -379,4 +378,213 @@ input[type="email"]::placeholder {
 .footer1:hover {
     color: #fff;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 680px) {
+    .image1 img {
+        height: 30px;
+        margin-left: 20px;
+    }
+
+    .nav-list-items {
+        display: none;
+    }
+
+    .nav-list button {
+        font-size: 12px;
+    }
+
+    .part1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text1 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .text1 h1 {
+        font-size: 25px;
+        margin-left: 5rem;
+    }
+
+    .text1 p {
+        font-size: 12px;
+        margin-left: 5rem;
+    }
+
+    .input_box {
+        display: none;
+    }
+
+    .main2 h2 {
+        font-size: 25px;
+    }
+
+    .stats {
+        display: flex;
+        justify-content: center;
+        margin-left: 40px;
+    }
+
+    .stats1 h2 {
+        font-size: 15px;
+    }
+
+    .stats1 {
+        margin-right: 60px;
+    }
+
+    .stats1 p {
+        font-size: 12px;
+    }
+
+    .image3 img {
+        height: 15rem;
+    }
+
+    .text2 {
+        margin-top: 40px;
+    }
+
+    .text2 h1 {
+        font-size: 25px;
+    }
+
+    .main3 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0;
+    }
+
+    .image4 img {
+        display: flex;
+        justify-content: center;
+        height: 20rem;
+        width: 23rem;
+    }
+
+    .side {
+        margin-left: 5rem;
+        width: 20rem;
+    }
+
+    .side h2 {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .side p {
+        font-size: 12px;
+    }
+
+    .main4 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .image5 {
+        display: flex;
+        justify-content: center;
+        margin-left: 15rem;
+    }
+    .image5 img {
+        display: flex;
+        justify-content: center;
+        height: 20rem;
+        width: 23rem;
+    }
+
+    .side {
+        margin-left: 5rem;
+        width: 20rem;
+    }
+
+    .side h2 {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .side p {
+        font-size: 12px;
+    }
+    
+    .main5 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0;
+    }
+
+    .image6 img {
+        margin-left: 5rem;
+        height: 20rem;
+        width: 23rem;
+    }
+
+    .side {
+        margin-left: 5rem;
+        width: 20rem;
+    }
+
+    .side h2 {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .side p {
+        font-size: 12px;
+    }
+
+    .main6 {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-heading h2 {
+        font-size: 25px
+    }
+
+    .right-paragraph p {
+        font-size: 12px;
+    }
+
+    .main7 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .all {
+        margin-bottom: 30px;
+    }
+
+    .all img {
+        width: 15rem;
+    }
+
+    .up {
+        margin-left: 20px;
+    }
+
+    .up .logo img {
+        height: 30px;
+    }
+
+    .social ion-icon {
+        font-size: 12px;
+    }
+
+    .footer {
+        margin-left: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
